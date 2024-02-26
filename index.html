@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drawing App with Modern Style</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <canvas id="drawingCanvas" width="800" height="600"></canvas>
+            <input type="color" id="colorPicker">
+            <button id="saveBtn">Save Image</button>
+            <button id="saveLeah">Save for Leah</button>
+            <button id="saveMaverick">Save for Maverick</button>
+            <button id="clearCanvas">Clear</button>
+        </div>
+        <div id="savedImages">
+            <img id="leahImage" class="savedImage">
+            <img id="maverickImage" class="savedImage">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
